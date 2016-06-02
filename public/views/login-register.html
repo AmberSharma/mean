@@ -1,5 +1,5 @@
 <!-- public/views/login.html -->
-
+<link rel="stylesheet" href="css/customuploadfieldstyle.css">
 <div class="container" ng-controller="LoginRegisterController">
 	<div class="card"></div>
 	<div class="card">
@@ -40,6 +40,12 @@
 				<div class="bar"></div>
 			</div>
 			<div class="input-container">
+				<div class="box">
+					<input type="file" class="fileuploadbutton" multiple/>
+				</div>
+				<div class="bar"></div>
+			</div>
+			<div class="input-container">
 				<input type="password" ng-model="passwd" required="required"/>
 				<label for="Password">Password</label>
 				<div class="bar"></div>
@@ -55,4 +61,3 @@
 		</form>
 	</div>
 </div>
-
